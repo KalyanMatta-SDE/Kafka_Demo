@@ -1,0 +1,60 @@
+/mvnw text eol=lf
+*.cmd text eol=crlf
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+out/
+
+# Maven or Gradle directories
+target/
+build/
+
+# Logs
+*.log
+logs/
+
+# OS-specific files
+.DS_Store        # macOS
+Thumbs.db        # Windows
+desktop.ini      # Windows
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
+
+# Lombok config
+lombok.config
+
+# Git-specific files
+*.rej
+*.patch
+*.diff
+
+# Environment-specific configuration
+.env
+.env.*
+
+# Security keys and secrets
+*.keystore
+*.jks
+
+# Database files
+*.h2.db
+*.mv.db
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Packaging files
+*.jar
+*.war
+*.ear
+
+# Test coverage and reports
+jacoco/
+.coverage/
